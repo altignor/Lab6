@@ -1,0 +1,20 @@
+Function Name: input_valid_name
+Parameters: package_name
+Return Value: valid package name
+Algorithm:
+1. While the package does not equal green or blue or purple
+    a. Tell the user "sorry, not an option"
+    b. Ask user to enter package name again
+    c. Typecast input
+2. Return package name
+
+
+Function Name: input_valid_data
+Parameters: data
+Return Value: valid data
+Algorithm:
+1. While data < 0
+    a. Tell the user "sorry, not valid"
+    b. Ask user to enter data again
+    c, Typecast input
+2. Return data
